@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="college.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<!-- Header -->
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html">
+                <img src="logo.png" alt="logo">
+            </a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="college.html">Home</a></li>
+                    <li><a href="About  Us.html">About</a></li>
+                    <li><a href="Course.html">Course</a></li>
+                    <li><a href="Blog.html">Blog</a></li>
+                    <li><a href="Contact Us.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+       <h1>CONTACT US</h1>
+    </section>
+
+    <!-- Contact Us -->
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3561.318289121147!2d75.81507150876796!3d26.79799215743505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396dc9838b04bf3f%3A0x17ba16ebc232a8ff!2sSofitgrow%20Solutions%20Pvt.%20Ltd.!5e0!3m2!1sen!2sin!4v1676541748283!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5> 80 Feet Road Opposite JDA Park</h5>
+                        <p> Mahesh Nagar, Jaipur 302015
+                        </p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5> 076888 86388</h5>
+                        <p> Monday to Friday, 10 AM to 7 PM
+                         </p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope-o"></i>
+                    <span>
+                        <h5>info@sofitgrow.com</h5>
+                        <p>E-mail Us Your Query
+                        </p>
+                    </span>
+                </div>
+            </div>
+            
+            <div class="contact-col">
+                <form action="">
+                    <input type="text" placeholder="Enter Your Name" required>
+                    <input type="E-mail" placeholder="Enter Your E-mail" required>
+                    <input type="Subject" placeholder="Enter Your Subject" required>
+                    <textarea name="" rows="8" placeholder="Message" required></textarea>
+                    <button type="submit" class="hero-btn red-btn">Send Message</button>
+
+                </form>
+            </div>
+        </div>
+    </section>
+  
+<!-- Footer Section -->
+
+<section class="footer">
+    <div class="icons">
+        <a class="hover-link" href="https://www.facebook.com/sofitgrow"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+        <a class="hover-link" href="https://twitter.com/sofitgrow1"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+        <a class="hover-link" href="https://www.instagram.com/sofitgrow/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        <a class="hover-link" href="https://www.linkedin.com/company/sofitgrow/"><i class="fa fa-gratipay"></i></a>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> By Anmol Dubey</p>
+</section>
+
+
+
+
+
+
+    <!-- Javascript for toggle menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks")
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>

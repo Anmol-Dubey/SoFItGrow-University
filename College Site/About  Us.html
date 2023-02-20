@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="college.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<!-- Header -->
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html">
+                <img src="logo.png" alt="logo">
+            </a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="college.html">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="Course.html">Course</a></li>
+                    <li><a href="Blog.html">Blog</a></li>
+                    <li><a href="Contact Us.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+       <h1>ABOUT US</h1>
+    </section>
+
+   <!-- About Us content -->
+   <section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>We are the world's largest University</h1>
+            <p>Welcome to the world of SoFitGrow University where knowledge, discipline and recreation come together! The center of learning set amidst lush green valley is a treat for the eyes and the mind. SoFitGrow University, offers its students a campus for their superlative development.</p>
+            <a href="Course.html" class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="about.jpg" alt="">
+        </div>
+    </div>
+   </section>
+</section>
+<!-- Footer Section -->
+
+<section class="footer">
+   
+    <div class="icons">
+        <a class="hover-link" href="https://www.facebook.com/sofitgrow"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+        <a class="hover-link" href="https://twitter.com/sofitgrow1"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+        <a class="hover-link" href="https://www.instagram.com/sofitgrow/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        <a class="hover-link" href="https://www.linkedin.com/company/sofitgrow/"><i class="fa fa-gratipay"></i></a>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> By Anmol Dubey</p>
+</section>
+
+
+
+
+
+
+    <!-- Javascript for toggle menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks")
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
